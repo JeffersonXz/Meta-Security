@@ -1,0 +1,10 @@
+// Custom Navbar
+.navbar {
+  background-color: transparent;
+
+  // Logo Marca
+  &-brand img {
+    width: 80px;
+    height: 80px;
+  }
+}
