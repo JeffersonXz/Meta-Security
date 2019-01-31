@@ -1,3 +1,4 @@
+@import "../variables";
 // Custom Navbar
 .navbar {
   background-color: transparent;
@@ -6,5 +7,44 @@
   &-brand img {
     width: 80px;
     height: 80px;
+  }
+}
+
+// Custom links Mobile
+.navbar-nav {
+  .nav-link {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    padding-left: 0.4rem;
+    transition: all 0.7s;
+    width: 0px;
+
+    // Efeito Hover
+    &:hover {
+      background-color: $color-green-light;
+      width: 100%;
+      transition: all 0.7s;
+    }
+  }
+}
+
+// Media Queries
+@media (min-width: 768px) {
+  .navbar-nav {
+    .nav-link {
+      font-size: 1.2rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+      padding-left: 0.4rem;
+      transition: all 0.7s;
+      width: 100%;
+
+      &:hover {
+        background-color: transparent;
+      }
+    }
   }
 }

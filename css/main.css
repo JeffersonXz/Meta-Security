@@ -4,6 +4,31 @@
     width: 80px;
     height: 80px; }
 
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  padding-left: 0.4rem;
+  transition: all 0.7s;
+  width: 0px; }
+  .navbar-nav .nav-link:hover {
+    background-color: #02a676;
+    width: 100%;
+    transition: all 0.7s; }
+
+@media (min-width: 768px) {
+  .navbar-nav .nav-link {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    padding-left: 0.4rem;
+    transition: all 0.7s;
+    width: 100%; }
+    .navbar-nav .nav-link:hover {
+      background-color: transparent; } }
+
 * {
   margin: 0px;
   padding: 0px;
@@ -16,4 +41,4 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 100%;
   line-height: 1.5;
-  color: #333; }
+  color: #000; }
