@@ -1,0 +1,50 @@
+@import "../variables";
+
+// Intro
+.intro {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  // background
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../../img/intro.jpeg);
+  background-size: cover;
+  color: #fff;
+
+  // Welcome
+  &__welcome {
+    font-size: 1rem;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 3rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0.5rem;
+      left: -43px;
+      width: 30px;
+      height: 1px;
+      background-color: #fff;
+    }
+  }
+
+  &__principal {
+    font-family: $font-secondary;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__paragraphy {
+    font-weight: 300;
+  }
+}
+
+// Media Queries
+@media (min-width: 768px) {
+}

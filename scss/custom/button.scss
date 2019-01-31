@@ -1,0 +1,10 @@
+@import "../variables";
+
+.btn-custom {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  background-color: $color-green-light;
+  color: #fff !important;
+}

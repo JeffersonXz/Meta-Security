@@ -1,7 +1,7 @@
 @import "../variables";
 // Custom Navbar
 .navbar {
-  background-color: transparent;
+  background-color: $color-black-dark;
 
   // Logo Marca
   &-brand img {
@@ -18,20 +18,24 @@
     text-transform: uppercase;
     margin-bottom: 0.5rem;
     padding-left: 0.4rem;
-    transition: all 0.7s;
+    transition: all 1s;
     width: 0px;
 
     // Efeito Hover
     &:hover {
       background-color: $color-green-light;
       width: 100%;
-      transition: all 0.7s;
+      transition: all 1s;
     }
   }
 }
 
 // Media Queries
 @media (min-width: 768px) {
+  .navbar {
+    background-color: transparent;
+  }
+
   .navbar-nav {
     .nav-link {
       font-size: 1.2rem;
