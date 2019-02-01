@@ -84,6 +84,34 @@
     .company__title span {
       font-weight: 700; }
 
+.consultation {
+  padding: 4rem 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../img/consultation.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: #fff; }
+  .consultation__box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .consultation__title {
+    font-weight: 100; }
+    .consultation__title span {
+      font-weight: 700; }
+
+.newsletter {
+  padding: 7rem 0; }
+  .newsletter__text {
+    width: 70%;
+    margin: auto; }
+  .newsletter .input-group {
+    width: 70%;
+    margin: auto; }
+    .newsletter .input-group input {
+      padding: 1.6rem 0; }
+    .newsletter .input-group input:placeholder-shown {
+      padding-left: 1rem; }
+
 .services {
   padding: 7rem 0; }
   .services__box {

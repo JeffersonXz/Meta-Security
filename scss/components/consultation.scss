@@ -1,0 +1,21 @@
+.consultation {
+  padding: 4rem 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../img/consultation.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+
+  &__box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__title {
+    font-weight: 100;
+    span {
+      font-weight: 700;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.newsletter {
+  padding: 7rem 0;
+
+  &__text {
+    width: 70%;
+    margin: auto;
+  }
+
+  .input-group {
+    width: 70%;
+    margin: auto;
+
+    input {
+      padding: 1.6rem 0;
+    }
+
+    input:placeholder-shown {
+      padding-left: 1rem;
+    }
+  }
+}
