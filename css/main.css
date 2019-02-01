@@ -29,16 +29,23 @@
   .intro__paragraphy {
     font-weight: 300; }
 
+@media (min-width: 768px) {
+  .intro__text {
+    width: 50%; } }
+
 .navbar {
-  background-color: #000; }
+  background-color: #404040;
+  background-size: cover;
+  border-bottom: 1px solid #02a676; }
   .navbar-brand img {
-    width: 80px;
-    height: 80px; }
+    width: 50px;
+    height: 50px; }
 
 .navbar-nav .nav-link {
   font-size: 1.2rem;
   font-weight: 700;
   text-transform: uppercase;
+  color: #fff !important;
   margin-bottom: 0.5rem;
   padding-left: 0.4rem;
   transition: all 1s;
@@ -49,10 +56,8 @@
     transition: all 1s; }
 
 @media (min-width: 768px) {
-  .navbar {
-    background-color: transparent; }
   .navbar-nav .nav-link {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
@@ -62,21 +67,29 @@
     .navbar-nav .nav-link:hover {
       background-color: transparent; } }
 
+.about {
+  padding: 7rem 0; }
+
 .services {
   padding: 7rem 0; }
   .services__box {
     display: flex;
     padding: 0 1rem; }
   .services__icon {
-    font-size: 1.4rem;
+    font-size: 2rem;
     margin-right: 0.7rem;
     color: #008c72; }
   .services__title {
-    font-size: 1.3rem;
-    font-weight: 400; }
+    font-size: 1.5rem;
+    font-weight: 100; }
   .services__paragraphy {
     font-size: 1rem;
-    font-weight: 300; }
+    font-weight: 100; }
+
+@media (min-width: 768px) {
+  .services__title-box {
+    width: 75%;
+    margin: auto; } }
 
 .btn-custom {
   font-size: 0.8rem;
@@ -84,16 +97,17 @@
   letter-spacing: 0.2rem;
   text-transform: uppercase;
   background-color: #02a676;
-  color: #fff !important; }
+  color: #fff !important;
+  padding: 1rem 2rem; }
 
 .title-principal {
-  font-family: "Raleway", sans-serif;
-  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5rem;
   font-weight: 100;
-  color: #000; }
+  color: #404040; }
 
 .paragraphy {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 300;
   color: #969696; }
 
@@ -109,4 +123,8 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 100%;
   line-height: 1.5;
-  color: #000; }
+  color: #404040; }
+
+img {
+  max-width: 100%;
+  margin: auto; }

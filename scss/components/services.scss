@@ -9,18 +9,27 @@
   }
 
   &__icon {
-    font-size: 1.4rem;
+    font-size: 2rem;
     margin-right: 0.7rem;
     color: $color-green-dark;
   }
 
   &__title {
-    font-size: 1.3rem;
-    font-weight: 400;
+    font-size: 1.5rem;
+    font-weight: 100;
   }
 
   &__paragraphy {
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 100;
+  }
+}
+
+@media (min-width: 768px) {
+  .services {
+    &__title-box {
+      width: 75%;
+      margin: auto;
+    }
   }
 }
