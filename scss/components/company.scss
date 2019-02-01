@@ -1,0 +1,20 @@
+.company {
+  padding: 2rem 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../img/company.png);
+  background-size: cover;
+  color: #fff;
+
+  &__box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__title {
+    font-weight: 100;
+    span {
+      font-weight: 700;
+    }
+  }
+}

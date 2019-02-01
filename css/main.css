@@ -70,6 +70,20 @@
 .about {
   padding: 7rem 0; }
 
+.company {
+  padding: 2rem 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../img/company.png);
+  background-size: cover;
+  color: #fff; }
+  .company__box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .company__title {
+    font-weight: 100; }
+    .company__title span {
+      font-weight: 700; }
+
 .services {
   padding: 7rem 0; }
   .services__box {
@@ -90,6 +104,12 @@
   .services__title-box {
     width: 75%;
     margin: auto; } }
+
+.team {
+  padding: 7rem 0; }
+  .team__name {
+    font-weight: 100;
+    margin-top: 1rem; }
 
 .btn-custom {
   font-size: 0.8rem;
