@@ -62,6 +62,22 @@
     .navbar-nav .nav-link:hover {
       background-color: transparent; } }
 
+.services {
+  padding: 7rem 0; }
+  .services__box {
+    display: flex;
+    padding: 0 1rem; }
+  .services__icon {
+    font-size: 1.4rem;
+    margin-right: 0.7rem;
+    color: #008c72; }
+  .services__title {
+    font-size: 1.3rem;
+    font-weight: 400; }
+  .services__paragraphy {
+    font-size: 1rem;
+    font-weight: 300; }
+
 .btn-custom {
   font-size: 0.8rem;
   font-weight: 700;
@@ -69,6 +85,17 @@
   text-transform: uppercase;
   background-color: #02a676;
   color: #fff !important; }
+
+.title-principal {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 100;
+  color: #000; }
+
+.paragraphy {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #969696; }
 
 * {
   margin: 0px;
