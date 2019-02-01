@@ -111,6 +111,29 @@
     font-weight: 100;
     margin-top: 1rem; }
 
+.testimonials {
+  padding: 7rem 0; }
+  .testimonials__box {
+    width: 100%; }
+  .testimonials__icon {
+    font-size: 2rem; }
+  .testimonials__text {
+    font-size: 1rem;
+    font-weight: 100; }
+  .testimonials__info {
+    display: flex;
+    margin-top: 1.4rem; }
+  .testimonials__avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 2rem; }
+  .testimonials__name h6 {
+    font-size: 1.2rem;
+    color: #02a676; }
+  .testimonials__name span {
+    font-size: 0.8rem; }
+
 .btn-custom {
   font-size: 0.8rem;
   font-weight: 700;
