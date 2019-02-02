@@ -17,4 +17,22 @@
       color: $color-green-light;
     }
   }
+
+  // Footer Info
+  &__info {
+    display: flex;
+  }
+
+  &__icon {
+    font-size: 1.2rem;
+    margin-right: 1.2rem;
+    color: $color-green-light;
+  }
+}
+
+footer {
+  background-color: $color-black-dark;
+  color: #fff;
+  padding: 2rem;
+  border-top: 1px solid #000;
 }

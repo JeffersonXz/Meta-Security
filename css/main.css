@@ -8,6 +8,18 @@
     color: #fff; }
     .footer a:hover {
       color: #02a676; }
+  .footer__info {
+    display: flex; }
+  .footer__icon {
+    font-size: 1.2rem;
+    margin-right: 1.2rem;
+    color: #02a676; }
+
+footer {
+  background-color: #404040;
+  color: #fff;
+  padding: 2rem;
+  border-top: 1px solid #000; }
 
 .intro {
   width: 100%;
